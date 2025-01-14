@@ -1,0 +1,8 @@
+poppler_datadir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.12
+
+Cflags: -DPOPPLER_DATADIR=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/share/poppler
+

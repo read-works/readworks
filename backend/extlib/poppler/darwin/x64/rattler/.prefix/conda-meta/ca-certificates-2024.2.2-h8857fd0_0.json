@@ -1,0 +1,42 @@
+{
+  "build": "h8857fd0_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "ISC",
+  "md5": "f2eacee8c33c43692f1ccfd33d0f50b1",
+  "name": "ca-certificates",
+  "sha256": "54a794aedbb4796afeabdf54287b06b1d27f7b13b3814520925f4c2c80f58ca9",
+  "size": 155665,
+  "subdir": "osx-64",
+  "timestamp": 1706843838227,
+  "version": "2024.2.2",
+  "fn": "ca-certificates-2024.2.2-h8857fd0_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2024.2.2-h8857fd0_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/ca-certificates-2024.2.2-h8857fd0_0",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "7a347ca8fef6e29f82b6e4785355a6635c17fa755e0940f65f15aa8fc7bd7f92",
+        "sha256_in_prefix": "7a347ca8fef6e29f82b6e4785355a6635c17fa755e0940f65f15aa8fc7bd7f92",
+        "size_in_bytes": 292541
+      },
+      {
+        "_path": "ssl/cert.pem",
+        "path_type": "softlink",
+        "sha256": "7a347ca8fef6e29f82b6e4785355a6635c17fa755e0940f65f15aa8fc7bd7f92",
+        "sha256_in_prefix": "7a347ca8fef6e29f82b6e4785355a6635c17fa755e0940f65f15aa8fc7bd7f92",
+        "size_in_bytes": 292541
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

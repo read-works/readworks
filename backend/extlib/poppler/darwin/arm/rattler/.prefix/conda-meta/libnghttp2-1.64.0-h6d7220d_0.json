@@ -1,0 +1,105 @@
+{
+  "build": "h6d7220d_0",
+  "build_number": 0,
+  "depends": [
+    "__osx >=11.0",
+    "c-ares >=1.34.2,<2.0a0",
+    "libcxx >=17",
+    "libev >=4.33,<4.34.0a0",
+    "libev >=4.33,<5.0a0",
+    "libzlib >=1.3.1,<2.0a0",
+    "openssl >=3.3.2,<4.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "3408c02539cee5f1141f9f11450b6a51",
+  "name": "libnghttp2",
+  "sha256": "00cc685824f39f51be5233b54e19f45abd60de5d8847f1a56906f8936648b72f",
+  "size": 566719,
+  "subdir": "osx-arm64",
+  "timestamp": 1729572385640,
+  "version": "1.64.0",
+  "fn": "libnghttp2-1.64.0-h6d7220d_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libnghttp2-1.64.0-h6d7220d_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libnghttp2-1.64.0-h6d7220d_0",
+  "files": [
+    "bin/nghttp",
+    "bin/nghttpd",
+    "bin/nghttpx",
+    "include/nghttp2/nghttp2.h",
+    "include/nghttp2/nghttp2ver.h",
+    "lib/libnghttp2.14.dylib",
+    "lib/libnghttp2.dylib",
+    "lib/pkgconfig/libnghttp2.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/nghttp",
+        "path_type": "hardlink",
+        "sha256": "2c6005edc147033b4c8fee5152b77be42f13545e7b038f6bc13ea5d8fbc9f376",
+        "sha256_in_prefix": "2c6005edc147033b4c8fee5152b77be42f13545e7b038f6bc13ea5d8fbc9f376",
+        "size_in_bytes": 343008
+      },
+      {
+        "_path": "bin/nghttpd",
+        "path_type": "hardlink",
+        "sha256": "33de2aded5eb72210ffd6cefbc9e1e0d4cff8662e99c6abec3bf89729931070e",
+        "sha256_in_prefix": "33de2aded5eb72210ffd6cefbc9e1e0d4cff8662e99c6abec3bf89729931070e",
+        "size_in_bytes": 321184
+      },
+      {
+        "_path": "bin/nghttpx",
+        "path_type": "hardlink",
+        "sha256": "9ebb42cc47fab9a37a2ee87f00fdf6aaafe4e7f2e9b99cdeafe61ba0ad5314bb",
+        "sha256_in_prefix": "eeeac05690e3ab746d155609d9603c3c57bb3ffad7367c12489ae9d46a006144",
+        "size_in_bytes": 1187744,
+        "file_mode": "binary",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1729571758443/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p"
+      },
+      {
+        "_path": "include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "9a538b11cfb918105551e8427815b966edfb83724d6a0d09c422593d572e807e",
+        "sha256_in_prefix": "9a538b11cfb918105551e8427815b966edfb83724d6a0d09c422593d572e807e",
+        "size_in_bytes": 249862
+      },
+      {
+        "_path": "include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "49b0c950148846ba506065bb6705ae9261545a61cd0e89c2d0b711fe14e825ce",
+        "sha256_in_prefix": "49b0c950148846ba506065bb6705ae9261545a61cd0e89c2d0b711fe14e825ce",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/libnghttp2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "c70a9f0479f2293f5ce07909c839bfa1b8919f0abfb33c0514cf25abcb5b1c7a",
+        "sha256_in_prefix": "c70a9f0479f2293f5ce07909c839bfa1b8919f0abfb33c0514cf25abcb5b1c7a",
+        "size_in_bytes": 212960
+      },
+      {
+        "_path": "lib/libnghttp2.dylib",
+        "path_type": "softlink",
+        "sha256": "c70a9f0479f2293f5ce07909c839bfa1b8919f0abfb33c0514cf25abcb5b1c7a",
+        "sha256_in_prefix": "73cc2dc4c17b733e9bcd055afdd4b950f79ddf586b3eb71f83261f555b80cc5c",
+        "size_in_bytes": 212960
+      },
+      {
+        "_path": "lib/pkgconfig/libnghttp2.pc",
+        "path_type": "hardlink",
+        "sha256": "23cfebadc32f08c7fc61e6bb1cccc5920d9f57d64a62c08557442713fb6e8f97",
+        "sha256_in_prefix": "ce54086390746d0add1932e0e45ff4d03accf628c7470d5297d1cf54faba61d2",
+        "size_in_bytes": 1448,
+        "file_mode": "text",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1729571758443/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libnghttp2-1.64.0-h6d7220d_0",
+    "type": 1
+  }
+}

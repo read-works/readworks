@@ -1,0 +1,14 @@
+prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+exec_prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+libdir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/lib
+includedir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/lib -lfreetype
+Libs.private: -lz -L/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

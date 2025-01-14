@@ -1,0 +1,71 @@
+{
+  "build": "ha82da77_0",
+  "build_number": 0,
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "md5": "a2d3d484d95889fccdd09498d8f6bf9a",
+  "name": "libcxx",
+  "sha256": "342896ebc1d6acbf022ca6df006a936b9a472579e91e3c502cb1f52f218b78e9",
+  "size": 520678,
+  "subdir": "osx-arm64",
+  "timestamp": 1732060258949,
+  "version": "19.1.4",
+  "fn": "libcxx-19.1.4-ha82da77_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-19.1.4-ha82da77_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libcxx-19.1.4-ha82da77_0",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib",
+    "lib/libc++.a",
+    "lib/libc++.dylib",
+    "lib/libc++experimental.a"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libc++.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f091b98ca4b7197087a9aa60caf776e5938a3de92088b143b7cb1bdb4b709ee6",
+        "sha256_in_prefix": "f091b98ca4b7197087a9aa60caf776e5938a3de92088b143b7cb1bdb4b709ee6",
+        "size_in_bytes": 1082064
+      },
+      {
+        "_path": "lib/libc++.1.dylib",
+        "path_type": "softlink",
+        "sha256": "f091b98ca4b7197087a9aa60caf776e5938a3de92088b143b7cb1bdb4b709ee6",
+        "sha256_in_prefix": "73906d1b8af09e1ec76c3899d5c199e015b10d9a07757f74805c73f98cdd6f0c",
+        "size_in_bytes": 1082064
+      },
+      {
+        "_path": "lib/libc++.a",
+        "path_type": "hardlink",
+        "sha256": "9738f7e396b56aab1287e2ed8914dddc477469581ab69d9c21e870be31116de8",
+        "sha256_in_prefix": "9738f7e396b56aab1287e2ed8914dddc477469581ab69d9c21e870be31116de8",
+        "size_in_bytes": 1534376
+      },
+      {
+        "_path": "lib/libc++.dylib",
+        "path_type": "softlink",
+        "sha256": "f091b98ca4b7197087a9aa60caf776e5938a3de92088b143b7cb1bdb4b709ee6",
+        "sha256_in_prefix": "73906d1b8af09e1ec76c3899d5c199e015b10d9a07757f74805c73f98cdd6f0c",
+        "size_in_bytes": 1082064
+      },
+      {
+        "_path": "lib/libc++experimental.a",
+        "path_type": "hardlink",
+        "sha256": "e9876b98991c60eb9b5a8e0184b4225081eeb9ab5941938fccefe17034673f36",
+        "sha256_in_prefix": "e9876b98991c60eb9b5a8e0184b4225081eeb9ab5941938fccefe17034673f36",
+        "size_in_bytes": 311872
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libcxx-19.1.4-ha82da77_0",
+    "type": 1
+  }
+}

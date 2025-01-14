@@ -1,0 +1,99 @@
+{
+  "build": "h64cf6d3_1",
+  "build_number": 1,
+  "depends": [
+    "__osx >=10.9",
+    "c-ares >=1.23.0,<2.0a0",
+    "libcxx >=16.0.6",
+    "libev >=4.33,<4.34.0a0",
+    "libev >=4.33,<5.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "openssl >=3.2.0,<4.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "faecc55c2a8155d9ff1c0ff9a0fef64f",
+  "name": "libnghttp2",
+  "sha256": "412fd768e787e586602f8e9ea52bf089f3460fc630f6987f0cbd89b70e9a4380",
+  "size": 599736,
+  "subdir": "osx-64",
+  "timestamp": 1702130398536,
+  "version": "1.58.0",
+  "fn": "libnghttp2-1.58.0-h64cf6d3_1.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libnghttp2-1.58.0-h64cf6d3_1.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/libnghttp2-1.58.0-h64cf6d3_1",
+  "files": [
+    "bin/nghttp",
+    "bin/nghttpd",
+    "bin/nghttpx",
+    "include/nghttp2/nghttp2.h",
+    "include/nghttp2/nghttp2ver.h",
+    "lib/libnghttp2.14.dylib",
+    "lib/libnghttp2.dylib",
+    "lib/pkgconfig/libnghttp2.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/nghttp",
+        "path_type": "hardlink",
+        "sha256": "8c64a8a3d693944fededcf042a232d95205b549cfd92de7c812f73393b1162e8",
+        "sha256_in_prefix": "8c64a8a3d693944fededcf042a232d95205b549cfd92de7c812f73393b1162e8",
+        "size_in_bytes": 341672
+      },
+      {
+        "_path": "bin/nghttpd",
+        "path_type": "hardlink",
+        "sha256": "27e92d78197547f11881105c75fac507a629f1f70772d60de7ad0f95845c809b",
+        "sha256_in_prefix": "27e92d78197547f11881105c75fac507a629f1f70772d60de7ad0f95845c809b",
+        "size_in_bytes": 308288
+      },
+      {
+        "_path": "bin/nghttpx",
+        "path_type": "hardlink",
+        "sha256": "aa3ddcb86df5a98b6c743a534aac20674dc7c5566a0df6a34cd128a92405c0cc",
+        "sha256_in_prefix": "48ef21820b56bd8357b857e81f5b7368041b657c412c22804a4d638337d2a7a6",
+        "size_in_bytes": 1244600
+      },
+      {
+        "_path": "include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "5ee78a22bd0ad01a46be4841faa4c3c85afc64f741b812753834adb9ae95a64a",
+        "sha256_in_prefix": "5ee78a22bd0ad01a46be4841faa4c3c85afc64f741b812753834adb9ae95a64a",
+        "size_in_bytes": 205042
+      },
+      {
+        "_path": "include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "f4293b780f60e732ee8d4cdf07ee919be23f921b212ba0abf21173cf7231940b",
+        "sha256_in_prefix": "f4293b780f60e732ee8d4cdf07ee919be23f921b212ba0abf21173cf7231940b",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/libnghttp2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "sha256_in_prefix": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "size_in_bytes": 180128
+      },
+      {
+        "_path": "lib/libnghttp2.dylib",
+        "path_type": "softlink",
+        "sha256": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "sha256_in_prefix": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "size_in_bytes": 180128
+      },
+      {
+        "_path": "lib/pkgconfig/libnghttp2.pc",
+        "path_type": "hardlink",
+        "sha256": "36b4278bca6086dffb517f94449be618ca2dfb8ef78cd2ed6a36dbd048f725e8",
+        "sha256_in_prefix": "b1a442b15fc6fe9a3db15f65174e18aa95913148cfc8abc4f3380f90017244d1",
+        "size_in_bytes": 1448
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

@@ -1,0 +1,2 @@
+import{_a as r,hb as o,s as i,w as e}from"./chunk-V52KVE3Z.js";var h=(()=>{class t{http=e(o);fetchIsMigrationNecessary(){return this.http.get(`${r.api}migration`)}startMigration(){this.http.post(`${r.api}migration`,{}).subscribe()}static \u0275fac=function(n){return new(n||t)};static \u0275prov=i({token:t,factory:t.\u0275fac,providedIn:"root"})}return t})();export{h as a};
+/**i18n:1964dde12af7df15d0053ab7761c4e4c56fe7eae085ef9e01bc7588ce5d2189d*/

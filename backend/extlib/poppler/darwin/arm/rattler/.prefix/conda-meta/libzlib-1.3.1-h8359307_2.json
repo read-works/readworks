@@ -1,0 +1,50 @@
+{
+  "build": "h8359307_2",
+  "build_number": 2,
+  "constrains": [
+    "zlib 1.3.1 *_2"
+  ],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "license": "Zlib",
+  "license_family": "Other",
+  "md5": "369964e85dc26bfe78f41399b366c435",
+  "name": "libzlib",
+  "sha256": "ce34669eadaba351cd54910743e6a2261b67009624dbc7daeeafdef93616711b",
+  "size": 46438,
+  "subdir": "osx-arm64",
+  "timestamp": 1727963202283,
+  "version": "1.3.1",
+  "fn": "libzlib-1.3.1-h8359307_2.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libzlib-1.3.1-h8359307_2",
+  "files": [
+    "lib/libz.1.3.1.dylib",
+    "lib/libz.1.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libz.1.3.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "8c4e93dc34974bc403b89280cd6d7d31ee7e0f83db50bf1a7002e4ac62d5062d",
+        "sha256_in_prefix": "8c4e93dc34974bc403b89280cd6d7d31ee7e0f83db50bf1a7002e4ac62d5062d",
+        "size_in_bytes": 124048
+      },
+      {
+        "_path": "lib/libz.1.dylib",
+        "path_type": "softlink",
+        "sha256": "8c4e93dc34974bc403b89280cd6d7d31ee7e0f83db50bf1a7002e4ac62d5062d",
+        "sha256_in_prefix": "f6f5042337967158c0e09d2221ec9ee620354f7df9b52edf4f6e94da1fa9a175",
+        "size_in_bytes": 124048
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/bernhard/Library/Caches/rattler/cache/pkgs/libzlib-1.3.1-h8359307_2",
+    "type": 1
+  }
+}

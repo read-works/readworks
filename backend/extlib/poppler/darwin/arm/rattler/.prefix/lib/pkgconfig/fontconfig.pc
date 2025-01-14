@@ -1,0 +1,16 @@
+prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/etc
+localstatedir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/var
+confdir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/etc/fonts
+cachedir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/var/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.15.0
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Cflags: -I${includedir}

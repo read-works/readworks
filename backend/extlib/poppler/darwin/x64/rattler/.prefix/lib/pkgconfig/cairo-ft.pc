@@ -1,0 +1,8 @@
+prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+includedir=${prefix}/include
+
+Name: cairo-ft
+Description: FreeType font backend for cairo graphics library
+Version: 1.18.0
+Requires: cairo, freetype2 >=  9.7.3
+Cflags: -I${includedir}

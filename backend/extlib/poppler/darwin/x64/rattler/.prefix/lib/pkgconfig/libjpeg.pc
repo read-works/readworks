@@ -1,0 +1,10 @@
+prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+exec_prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+libdir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/lib
+includedir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

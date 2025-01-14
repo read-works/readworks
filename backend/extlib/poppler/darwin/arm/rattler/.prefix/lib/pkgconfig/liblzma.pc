@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+exec_prefix=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix
+libdir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/lib
+includedir=/Applications/readworks.app/Contents/Resources/poppler/rattler/.prefix/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

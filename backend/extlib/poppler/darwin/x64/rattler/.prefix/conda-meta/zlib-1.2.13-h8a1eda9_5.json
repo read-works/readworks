@@ -1,0 +1,69 @@
+{
+  "build": "h8a1eda9_5",
+  "build_number": 5,
+  "depends": [
+    "libzlib 1.2.13 h8a1eda9_5"
+  ],
+  "license": "Zlib",
+  "license_family": "Other",
+  "md5": "75a8a98b1c4671c5d2897975731da42d",
+  "name": "zlib",
+  "sha256": "d1f4c82fd7bd240a78ce8905e931e68dca5f523c7da237b6b63c87d5625c5b35",
+  "size": 90764,
+  "subdir": "osx-64",
+  "timestamp": 1686575574678,
+  "version": "1.2.13",
+  "fn": "zlib-1.2.13-h8a1eda9_5.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.13-h8a1eda9_5.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/zlib-1.2.13-h8a1eda9_5",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.a",
+    "lib/libz.dylib",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/zconf.h",
+        "path_type": "hardlink",
+        "sha256": "f333e19c8c4d93a85ee5be1b517c6b875af3e417d50c9e1d10b47f6406028d6c",
+        "sha256_in_prefix": "f333e19c8c4d93a85ee5be1b517c6b875af3e417d50c9e1d10b47f6406028d6c",
+        "size_in_bytes": 16589
+      },
+      {
+        "_path": "include/zlib.h",
+        "path_type": "hardlink",
+        "sha256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed",
+        "sha256_in_prefix": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed",
+        "size_in_bytes": 97323
+      },
+      {
+        "_path": "lib/libz.a",
+        "path_type": "hardlink",
+        "sha256": "2c29f169db0f24d7d49d39e74206501548566fb6adeab03ad7cf4e7cf2927072",
+        "sha256_in_prefix": "2c29f169db0f24d7d49d39e74206501548566fb6adeab03ad7cf4e7cf2927072",
+        "size_in_bytes": 123872
+      },
+      {
+        "_path": "lib/libz.dylib",
+        "path_type": "softlink",
+        "sha256": "f645f093590d64edeb00f55c3790de0c8b36c59d7dae6a41d955ab559f18894f",
+        "sha256_in_prefix": "f645f093590d64edeb00f55c3790de0c8b36c59d7dae6a41d955ab559f18894f",
+        "size_in_bytes": 105400
+      },
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "path_type": "hardlink",
+        "sha256": "a689581f07baf664ba4c74e6775408213122173a1f114ee4166fdcfc7c585ab6",
+        "sha256_in_prefix": "2657edec351c44b58afd9ccfda40797792f5a349d18f8d449cadec60275ad394",
+        "size_in_bytes": 319
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

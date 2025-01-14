@@ -1,0 +1,77 @@
+{
+  "build": "h73e2aa4_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=16"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "cb134c1e03fd32f4e6bea3f6de2614fd",
+  "name": "pixman",
+  "sha256": "3ab44e12e566c67a6e9fd831f557ab195456aa996b8dd9af19787ca80caa5cd1",
+  "size": 323904,
+  "subdir": "osx-64",
+  "timestamp": 1709239931160,
+  "version": "0.43.4",
+  "fn": "pixman-0.43.4-h73e2aa4_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pixman-0.43.4-h73e2aa4_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/pixman-0.43.4-h73e2aa4_0",
+  "files": [
+    "include/pixman-1/pixman-version.h",
+    "include/pixman-1/pixman.h",
+    "lib/libpixman-1.0.dylib",
+    "lib/libpixman-1.a",
+    "lib/libpixman-1.dylib",
+    "lib/pkgconfig/pixman-1.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/pixman-1/pixman-version.h",
+        "path_type": "hardlink",
+        "sha256": "2e7459e572a1b4c371aa311a2d2ba4dcb943f6e301626f8b978cb4fb997088ec",
+        "sha256_in_prefix": "2e7459e572a1b4c371aa311a2d2ba4dcb943f6e301626f8b978cb4fb997088ec",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "include/pixman-1/pixman.h",
+        "path_type": "hardlink",
+        "sha256": "ef77f6ef29bfde4b4465c4567d32c9b60acb5e3924ec6350fa87bfe847be9527",
+        "sha256_in_prefix": "ef77f6ef29bfde4b4465c4567d32c9b60acb5e3924ec6350fa87bfe847be9527",
+        "size_in_bytes": 48525
+      },
+      {
+        "_path": "lib/libpixman-1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2de35b75453415cdbc0a0e25d648d8b0cd326e9e1dc5e93f0483715eb6024ba8",
+        "sha256_in_prefix": "2de35b75453415cdbc0a0e25d648d8b0cd326e9e1dc5e93f0483715eb6024ba8",
+        "size_in_bytes": 778544
+      },
+      {
+        "_path": "lib/libpixman-1.a",
+        "path_type": "hardlink",
+        "sha256": "408708c95953310e3008b0060ad7c3f2c9b5e10f1ae68ff24e34aa5f2ef43d1e",
+        "sha256_in_prefix": "408708c95953310e3008b0060ad7c3f2c9b5e10f1ae68ff24e34aa5f2ef43d1e",
+        "size_in_bytes": 961448
+      },
+      {
+        "_path": "lib/libpixman-1.dylib",
+        "path_type": "softlink",
+        "sha256": "2de35b75453415cdbc0a0e25d648d8b0cd326e9e1dc5e93f0483715eb6024ba8",
+        "sha256_in_prefix": "2de35b75453415cdbc0a0e25d648d8b0cd326e9e1dc5e93f0483715eb6024ba8",
+        "size_in_bytes": 778544
+      },
+      {
+        "_path": "lib/pkgconfig/pixman-1.pc",
+        "path_type": "hardlink",
+        "sha256": "8b0f365ac763da0e4243da98ecb1c16f13fcfcbeefe122dfe613a57da5910178",
+        "sha256_in_prefix": "d99b7630dfc5e608efc1e4aa23f42aa4e05e3933b15270c1dc8f7543fc2b46cb",
+        "size_in_bytes": 282
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

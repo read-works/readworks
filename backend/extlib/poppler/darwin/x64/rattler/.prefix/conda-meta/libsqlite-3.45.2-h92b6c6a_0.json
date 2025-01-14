@@ -1,0 +1,68 @@
+{
+  "build": "h92b6c6a_0",
+  "build_number": 0,
+  "depends": [
+    "libzlib >=1.2.13,<1.3.0a0"
+  ],
+  "license": "Unlicense",
+  "md5": "086f56e13a96a6cfb1bf640505ae6b70",
+  "name": "libsqlite",
+  "sha256": "320ec73a4e3dd377757a2595770b8137ec4583df4d7782472d76377cdbdc4543",
+  "size": 902355,
+  "subdir": "osx-64",
+  "timestamp": 1710254991672,
+  "version": "3.45.2",
+  "fn": "libsqlite-3.45.2-h92b6c6a_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.45.2-h92b6c6a_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/libsqlite-3.45.2-h92b6c6a_0",
+  "files": [
+    "include/sqlite3.h",
+    "include/sqlite3ext.h",
+    "lib/libsqlite3.0.dylib",
+    "lib/libsqlite3.dylib",
+    "lib/pkgconfig/sqlite3.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/sqlite3.h",
+        "path_type": "hardlink",
+        "sha256": "7dc8a389408a2385ec239270cfd77a23cf67e206b5a13c8de59923ac3ccfa2da",
+        "sha256_in_prefix": "7dc8a389408a2385ec239270cfd77a23cf67e206b5a13c8de59923ac3ccfa2da",
+        "size_in_bytes": 640806
+      },
+      {
+        "_path": "include/sqlite3ext.h",
+        "path_type": "hardlink",
+        "sha256": "b184dd1586d935133d37ad76fa353faf0a1021ff2fdedeedcc3498fff74bbb94",
+        "sha256_in_prefix": "b184dd1586d935133d37ad76fa353faf0a1021ff2fdedeedcc3498fff74bbb94",
+        "size_in_bytes": 38149
+      },
+      {
+        "_path": "lib/libsqlite3.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0ce87a4a87be2540d98ea59ae6c31cc6be50e7a0104c722ad65b32f76b72fa45",
+        "sha256_in_prefix": "0ce87a4a87be2540d98ea59ae6c31cc6be50e7a0104c722ad65b32f76b72fa45",
+        "size_in_bytes": 1639880
+      },
+      {
+        "_path": "lib/libsqlite3.dylib",
+        "path_type": "softlink",
+        "sha256": "0ce87a4a87be2540d98ea59ae6c31cc6be50e7a0104c722ad65b32f76b72fa45",
+        "sha256_in_prefix": "0ce87a4a87be2540d98ea59ae6c31cc6be50e7a0104c722ad65b32f76b72fa45",
+        "size_in_bytes": 1639880
+      },
+      {
+        "_path": "lib/pkgconfig/sqlite3.pc",
+        "path_type": "hardlink",
+        "sha256": "ade0308f455fc58bb6749a531c78cb10508c8488fdf4729e59c1b841533239fd",
+        "sha256_in_prefix": "4bd8a98b2a8c6239ec10d54fd702028117af63f0be08540099d53d5d5be40817",
+        "size_in_bytes": 327
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

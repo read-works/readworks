@@ -1,0 +1,98 @@
+{
+  "build": "hd75f5a5_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "LGPL-2.1-only",
+  "md5": "6c3628d047e151efba7cf08c5e54d1ca",
+  "name": "libiconv",
+  "sha256": "23d4923baeca359423a7347c2ed7aaf48c68603df0cf8b87cc94a10b0d4e9a23",
+  "size": 666538,
+  "subdir": "osx-64",
+  "timestamp": 1702682713201,
+  "version": "1.17",
+  "fn": "libiconv-1.17-hd75f5a5_2.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libiconv-1.17-hd75f5a5_2.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/libiconv-1.17-hd75f5a5_2",
+  "files": [
+    "include/iconv.h",
+    "include/libcharset.h",
+    "include/localcharset.h",
+    "lib/libcharset.1.dylib",
+    "lib/libcharset.a",
+    "lib/libcharset.dylib",
+    "lib/libiconv.2.dylib",
+    "lib/libiconv.a",
+    "lib/libiconv.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/iconv.h",
+        "path_type": "hardlink",
+        "sha256": "e91292216b94f7c6f249414260e827f11c051ed148a57ee3d6dac77bc5116c18",
+        "sha256_in_prefix": "e91292216b94f7c6f249414260e827f11c051ed148a57ee3d6dac77bc5116c18",
+        "size_in_bytes": 9248
+      },
+      {
+        "_path": "include/libcharset.h",
+        "path_type": "hardlink",
+        "sha256": "180d05ba6adb348e150c6973ab795fe422da0b05e09f8ba7c369746ed1901702",
+        "sha256_in_prefix": "180d05ba6adb348e150c6973ab795fe422da0b05e09f8ba7c369746ed1901702",
+        "size_in_bytes": 1510
+      },
+      {
+        "_path": "include/localcharset.h",
+        "path_type": "hardlink",
+        "sha256": "67f01a81a41eab468313b34fb153aa11fe273b829c529e3a820a3877438d20e4",
+        "sha256_in_prefix": "67f01a81a41eab468313b34fb153aa11fe273b829c529e3a820a3877438d20e4",
+        "size_in_bytes": 6338
+      },
+      {
+        "_path": "lib/libcharset.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "4b1f824bd18f5ee1e7d35c28b14db3ba14a88352dd1a86d726dad1f807018308",
+        "sha256_in_prefix": "4b1f824bd18f5ee1e7d35c28b14db3ba14a88352dd1a86d726dad1f807018308",
+        "size_in_bytes": 12784
+      },
+      {
+        "_path": "lib/libcharset.a",
+        "path_type": "hardlink",
+        "sha256": "5d7280c5b4c207e23a365243dbf176e4b2b310cbe6c4f588007f9c0daf61eae7",
+        "sha256_in_prefix": "5d7280c5b4c207e23a365243dbf176e4b2b310cbe6c4f588007f9c0daf61eae7",
+        "size_in_bytes": 2840
+      },
+      {
+        "_path": "lib/libcharset.dylib",
+        "path_type": "softlink",
+        "sha256": "4b1f824bd18f5ee1e7d35c28b14db3ba14a88352dd1a86d726dad1f807018308",
+        "sha256_in_prefix": "4b1f824bd18f5ee1e7d35c28b14db3ba14a88352dd1a86d726dad1f807018308",
+        "size_in_bytes": 12784
+      },
+      {
+        "_path": "lib/libiconv.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "e6896bbac9088ea9043cbcd6f160de25de249ed6564753fe50e73a959a5cce64",
+        "sha256_in_prefix": "e6896bbac9088ea9043cbcd6f160de25de249ed6564753fe50e73a959a5cce64",
+        "size_in_bytes": 969752
+      },
+      {
+        "_path": "lib/libiconv.a",
+        "path_type": "hardlink",
+        "sha256": "a87c99df0553fee1dce50f126f6749f0d1d7acaa57cde5dbdf693c46ebfb4e97",
+        "sha256_in_prefix": "a87c99df0553fee1dce50f126f6749f0d1d7acaa57cde5dbdf693c46ebfb4e97",
+        "size_in_bytes": 996928
+      },
+      {
+        "_path": "lib/libiconv.dylib",
+        "path_type": "softlink",
+        "sha256": "e6896bbac9088ea9043cbcd6f160de25de249ed6564753fe50e73a959a5cce64",
+        "sha256_in_prefix": "e6896bbac9088ea9043cbcd6f160de25de249ed6564753fe50e73a959a5cce64",
+        "size_in_bytes": 969752
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

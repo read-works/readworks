@@ -1,0 +1,67 @@
+{
+  "build": "h10d778d_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "899db79329439820b7e8f8de41bca902",
+  "name": "libev",
+  "sha256": "0d238488564a7992942aa165ff994eca540f687753b4f0998b29b4e4d030ff43",
+  "size": 106663,
+  "subdir": "osx-64",
+  "timestamp": 1702146352558,
+  "version": "4.33",
+  "fn": "libev-4.33-h10d778d_2.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libev-4.33-h10d778d_2.conda",
+  "channel": "https://conda.anaconda.org/conda-forge/",
+  "extracted_package_dir": "/Users/berniberni/Library/Caches/rattler/cache/pkgs/libev-4.33-h10d778d_2",
+  "files": [
+    "include/ev++.h",
+    "include/ev.h",
+    "lib/libev.4.dylib",
+    "lib/libev.dylib",
+    "share/man/man3/ev.3"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/ev++.h",
+        "path_type": "hardlink",
+        "sha256": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7",
+        "sha256_in_prefix": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7",
+        "size_in_bytes": 20549
+      },
+      {
+        "_path": "include/ev.h",
+        "path_type": "hardlink",
+        "sha256": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2",
+        "sha256_in_prefix": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2",
+        "size_in_bytes": 30257
+      },
+      {
+        "_path": "lib/libev.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "2f028652ad6e5f742d72630cc13204191837a7be9c521ed5046bb250a59ee8fc",
+        "sha256_in_prefix": "2f028652ad6e5f742d72630cc13204191837a7be9c521ed5046bb250a59ee8fc",
+        "size_in_bytes": 49416
+      },
+      {
+        "_path": "lib/libev.dylib",
+        "path_type": "softlink",
+        "sha256": "2f028652ad6e5f742d72630cc13204191837a7be9c521ed5046bb250a59ee8fc",
+        "sha256_in_prefix": "2f028652ad6e5f742d72630cc13204191837a7be9c521ed5046bb250a59ee8fc",
+        "size_in_bytes": 49416
+      },
+      {
+        "_path": "share/man/man3/ev.3",
+        "path_type": "hardlink",
+        "sha256": "178fb4d367b9626165733a0927f0b597686ee24675424b9ab6dc2f9cd9a86952",
+        "sha256_in_prefix": "178fb4d367b9626165733a0927f0b597686ee24675424b9ab6dc2f9cd9a86952",
+        "size_in_bytes": 273163
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

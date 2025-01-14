@@ -1,0 +1,6 @@
+.idea
+.vscode
+./client/**/*
+readworks-ce
+3rdpartylicenses.txt
+build
