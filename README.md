@@ -89,13 +89,21 @@ During the build process, the following steps will be executed:
 
 To achieve this, simply run the following command depending on your operating system:
 
-- **For Mac**:
+#### Mac
+
+**Apple silicon (arm):**
 
 ```bash 
 npm run make:clean && npm run compile:mac
 ```
 
-- **For Windows**:
+**Intel:**
+
+```bash 
+npm run make:clean && npm run compile:mac:intel
+```
+
+#### Windows
 
 ```bash
 npm run make:clean && npm run compile:windows

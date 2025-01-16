@@ -4,8 +4,8 @@
   "license": "",
   "author": "Bernhard Behrendt <bernhard@readworks.app>, Dominik Kloke <dominik@readworks.app>",
   "scripts": {
-    "clean": "rm -rf ./build ./readworks-ce && cd backend && npm run clean && cd ..",
-    "make": "npm run install && npm run build && cp -R ./backend/dist ./build",
+    "clean": "rm -rf build readworks-ce && cd backend && npm run clean && cd ..",
+    "make": "npm run install && npm run build && cp -R backend/dist build",
     "make:clean": "npm run clean && npm run make",
     "install": "npm run install:backend",
     "build": "npm run build:backend",
@@ -14,8 +14,8 @@
     "resolve": "cd build && npm install",
     "collect:licensedata": "echo \"\" >> 3rdpartylicenses.txt && npm run collect:licensedata:server",
     "collect:licensedata:server": "cd backend && npx generate-license-file --input ../build/package.json --output ../3rdpartylicenses.txt --overwrite",
-    "compile:windows": "rm -rf ./readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv ./dist ../readworks-ce",
-    "compile:mac": "export TARGET_ARCH=arm64 && export CSC_IDENTITY_AUTO_DISCOVERY=false && npm run make:clean && rm -rf ./readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv ./dist ../readworks-ce",
-    "compile:mac:intel": "export TARGET_ARCH=x64 && export CSC_IDENTITY_AUTO_DISCOVERY=false && npm run make:clean && rm -rf ./readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv ./dist ../readworks-ce"
+    "compile:windows": "rm -rf readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv dist ../readworks-ce",
+    "compile:mac": "export TARGET_ARCH=arm64 && export CSC_IDENTITY_AUTO_DISCOVERY=false && rm -rf readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv dist ../readworks-ce",
+    "compile:mac:intel": "export TARGET_ARCH=x64 && export CSC_IDENTITY_AUTO_DISCOVERY=false && rm -rf readworks-ce && npm run resolve && npm run collect:licensedata && cd build && npm run dist && mv dist ../readworks-ce"
   }
 }
