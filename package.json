@@ -1,7 +1,7 @@
 {
   "name": "readworks",
   "description": "ReadWorks Community Edition (CE)",
-  "license": "",
+  "license": "LGPL-3.0-or-later",
   "author": "Bernhard Behrendt <bernhard@readworks.app>, Dominik Kloke <dominik@readworks.app>",
   "scripts": {
     "clean": "rm -rf build readworks-ce && cd backend && npm run clean && cd ..",
