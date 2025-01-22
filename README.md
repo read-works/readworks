@@ -1,6 +1,6 @@
 # ReadWorks Community Edition (CE)
 
-![header image](https://cdn.readworks.app/social/og-image.jpg?2)
+![header image](https://cdn.readworks.app/social/og-image.jpg?3)
 
 
 > This is the ReadWorks repository for developers. If you're looking to [download](https://readworks.app) and use the
